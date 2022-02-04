@@ -10,15 +10,26 @@ body{
 }
 
 
-/* @media only screen and (max-width: 1063px) {
-  #sidebar {
+@media only screen and (max-width: 1063px) {
+   #sidebar {
         display: none !important;
     }
     #sidebarCollapse {
         display : none !important;
+        } 
+        /* #sideabr.active{
+          margin-left: 0rem !important;
+          display: none !important;
         }
-} */
+ */
+#content{
+  margin: auto !important;
+}       
+#sidebarA{
+  width: 0rem !important;
+}
 
+}
 
 
 
