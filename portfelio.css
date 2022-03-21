@@ -9,8 +9,7 @@ body{
     height: 120%;
 }
 #horizontal{
-  position:fixed  !important;
-min-width: 587px;
+
 z-index: 2;
 background-color: transparent;
 }
