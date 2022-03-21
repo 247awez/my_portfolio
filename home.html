@@ -12,9 +12,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="portfelio.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +33,64 @@
 
 
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light " id="horizontal" role="navigation">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" id="home">
+          <a href="#" class="nav-link text-dark font-italic ">
+            <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+            Home
+          </a>
+        </li>
+        <li class="nav-item" id="about">
+          <a href="#about-container" class="nav-link text-dark font-italic">
+            <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+            About
+          </a>
+        </li>
+        <li class="nav-item" id="skills">
+          <a href="#skills-container" class="nav-link text-dark font-italic">
+            <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+            Skills
+          </a>
+        </li>
+        <li class="nav-item" id="resume">
+          <a href="#resume-container" class="nav-link text-dark font-italic">
+            <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+            Resume </a>
+        </li>
+        <li class="nav-item" id="Projects">
+          <a href="#projects-container" class="nav-link text-dark font-italic">
+            <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+           Projects </a>
+        </li>
+      </ul>
+  
+      <p class="text-gray font-weight-bold text-uppercase px-3 small py-4 mb-0">Contact</p>
+  
+      <ul class="nav flex-column bg-white mb-0">
+        
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/in/awez-pathan-16ab38207/" class="nav-link text-dark font-italic">
+            <i class="fa fa-pie-chart mr-3 text-primary fa-fw"></i>
+            LinkedIn </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://github.com/247awez/" class="nav-link text-dark font-italic">
+            <i class="fa fa-line-chart mr-3 text-primary fa-fw"></i>
+            Github </a>
+        </li>
+      </ul>
+     
+    </div>
+  </nav>
+
 
 
 
@@ -85,15 +141,7 @@
     <p class="text-gray font-weight-bold text-uppercase px-3 small py-4 mb-0">Contact</p>
 
     <ul class="nav flex-column bg-white mb-0">
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic">
-          <i class="fa fa-area-chart mr-3 text-primary fa-fw"></i>
-          Facebook </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-dark font-italic">
-          <i class="fa fa-bar-chart mr-3 text-primary fa-fw"></i>
-          Instagram </a>
+    
       </li>
       <li class="nav-item">
         <a href="https://www.linkedin.com/in/awez-pathan-16ab38207/" class="nav-link text-dark font-italic">
@@ -110,7 +158,7 @@
   <!-- End vertical navbar -->
 
 
-  <div class="page-content p-5" id="content">
+  <div class="page-content p-5" id="content" style="z-index: 1;">
     <button id="sidebarCollapse" style="border:2px solid rgba(72, 143, 200, 0.801);" type="button" onclick="toggle()"
       class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small
         class="text-uppercase font-weight-bold">Toggle</small></button>
@@ -358,11 +406,12 @@
 
     AOS.init();
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+ 
   <script src="portfelio.js"></script>
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   
 </body>
