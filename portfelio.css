@@ -86,14 +86,6 @@ margin: 0rem !important;
 
 
 
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
-
 .vertical-nav {
   min-width: 17rem;
   width: 17rem;
@@ -148,13 +140,7 @@ margin: 0rem !important;
   }
 }
 
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSE
-* ==========================================
-*
-*/
+
 
 body {
   /* background: #599fd9; */
@@ -183,7 +169,6 @@ color:black
 
 
 
-/* first container */
 
 #first-container{
 display: flex;
@@ -192,7 +177,7 @@ font-weight: bold;
   font-size: 30px;
   justify-content: center;
   align-items: center;
-  background-image: url("Screenshot\ \(34\).png") ;
+  background-image: url("Screenshot\ \(101\).png") ;
   background-position: center; 
   background-repeat: no-repeat; 
   background-size:auto; 
